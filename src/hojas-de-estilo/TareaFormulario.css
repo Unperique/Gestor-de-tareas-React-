@@ -1,14 +1,10 @@
-/* Estructura Principal */
-
 .tarea-formulario {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;     
   }
-  
-  /* Campo de Texto */
-  
+    
   .tarea-input {
     width: 350px;
     font-size: 18px;
@@ -18,9 +14,7 @@
     border: 2px solid #00471b;
     outline: none;
   }
-  
-  /* Boton Agregar Tarea */
-  
+    
   .tarea-boton {
     padding: 16px;
     font-size: 18px;
