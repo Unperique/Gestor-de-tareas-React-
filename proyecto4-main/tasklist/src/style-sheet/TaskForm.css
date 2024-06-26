@@ -1,0 +1,34 @@
+/* Estructura Principal */
+.task-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Campo de Texto */
+
+.task-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #b4b4b4;
+    outline: none;
+}
+
+/* Boton Agregar Tarea */
+
+.task-button {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: rgb(109, 109, 255);
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #4db8ff;
+    color: #000000;
+    text-transform: capitalize;
+}
