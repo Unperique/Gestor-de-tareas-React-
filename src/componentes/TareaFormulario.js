@@ -38,17 +38,17 @@ function TareaFormulario(props) {
   return (
     <form // Renderizamos un formulario
       className='tarea-formulario' // Aplicamos la clase de estilo correspondiente
-      onSubmit={manejarEnvio}> // Llamamos a la función manejarEnvio al enviar el formulario
+      onSubmit={manejarEnvio}> {/* Llamamos a la función manejarEnvio al enviar el formulario*/}
       <input // Renderizamos un input de texto
         className='tarea-input' // Aplicamos la clase de estilo correspondiente
         type='text' // Establecemos el tipo de input como texto
         placeholder='Escribe una Tarea' // Establecemos un placeholder para el input
         name='texto' // Establecemos el nombre del input
-        onChange={manejarCambio}> // Llamamos a la función manejarCambio al cambiar el valor del input
+        onChange={manejarCambio}> {/* Llamamos a la función manejarCambio al cambiar el valor del input*/}
       </input>
       <button // Renderizamos un botón
-        className='tarea-boton'> // Aplicamos la clase de estilo correspondiente
-        Agregar Tarea // Establecemos el texto del botón
+        className='tarea-boton'> {/* Aplicamos la clase de estilo correspondiente*/}
+        Agregar Tarea {/* Establecemos el texto del botón*/}
       </button>
     </form>
   );
